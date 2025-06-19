@@ -7,7 +7,7 @@ st.set_page_config(page_title="🎓 Prediksi Risiko Dropout Mahasiswa", layout="
 st.title("🎓 Prediksi Risiko Dropout Mahasiswa")
 
 # === LOAD MODEL ===
-model = joblib.load("best_pipeline_lgbm.pkl")  # Ubah ke nama file modelmu
+model = joblib.load("best_pipeline_catboost.pkl")  # Ubah ke nama file modelmu
 
 # === FORM INPUT ===
 st.header("📝 Masukkan Data Mahasiswa")
